@@ -25,8 +25,8 @@ if ($text == 'はい') {
     "template" => [
       "type" => "buttons",
       "thumbnailImageUrl" => "https://" . $_SERVER['SERVER_NAME'] . "/img1.jpg",
-      "title" => "○○レストラン",
-      "text" => "お探しのレストラン＠HZはこれですね",
+      "title" => "5F　カフェテリア",
+      "text" => "お手頃価格で食べられるランチスポットはここですね！",
       "actions" => [
           [
             "type" => "postback",
@@ -62,8 +62,8 @@ if ($text == 'はい') {
       "columns" => [
           [
             "thumbnailImageUrl" => "https://" . $_SERVER['SERVER_NAME'] . "/img2-1.jpg",
-            "title" => "●●レストラン",
-            "text" => "こちらにしますか？",
+            "title" => "築地 傳 本店",
+            "text" => "マグロ旨いよ。こちらにしますか？",
             "actions" => [
               [
                   "type" => "postback",
@@ -78,7 +78,8 @@ if ($text == 'はい') {
               [
                   "type" => "uri",
                   "label" => "詳しく見る（ブラウザ起動）",
-                  "uri" => "https://" . $_SERVER['SERVER_NAME'] . "/"
+                  "uri" => "https://tabelog.com/tokyo/A1302/A130204/13042200/"
+//                  "uri" => "https://" . $_SERVER['SERVER_NAME'] . "/"
               ]
             ]
           ],
