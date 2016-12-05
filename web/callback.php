@@ -61,7 +61,7 @@ if ($text == 'はい') {
       "type" => "carousel",
       "columns" => [
           [
-            "thumbnailImageUrl" => "https://" . $_SERVER['SERVER_NAME'] . "/img2-1.jpg",
+            "thumbnailImageUrl" => "https://" . $_SERVER['SERVER_NAME'] . "/den-top.jpg",
             "title" => "築地 傳 本店",
             "text" => "マグロ旨いよ。こちらにしますか？",
             "actions" => [
