@@ -24,7 +24,7 @@ if ($text == 'はい') {
     "altText" => "箱崎の5Fのカフェテリアはいかがですか？",
     "template" => [
       "type" => "buttons",
-      "thumbnailImageUrl" => "https://" . $_SERVER['SERVER_NAME'] . "/img1.jpg",
+      "thumbnailImageUrl" => "https://" . $_SERVER['SERVER_NAME'] . "/hz_cafeteria.jpg",
       "title" => "5F　カフェテリア",
       "text" => "お手頃価格で食べられるランチスポットはここですね！",
       "actions" => [
