@@ -21,12 +21,12 @@ if($type != "text"){
 if ($text == 'はい') {
   $response_format_text = [
     "type" => "template",
-    "altText" => "こちらの5Fのカフェテリアはいかがですか？",
+    "altText" => "箱崎の5Fのカフェテリアはいかがですか？",
     "template" => [
       "type" => "buttons",
       "thumbnailImageUrl" => "https://" . $_SERVER['SERVER_NAME'] . "/img1.jpg",
       "title" => "○○レストラン",
-      "text" => "お探しのレストランはこれですね",
+      "text" => "お探しのレストラン＠HZはこれですね",
       "actions" => [
           [
             "type" => "postback",
