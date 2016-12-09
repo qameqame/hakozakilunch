@@ -28,16 +28,16 @@ if ($text == 'はい') {
       "title" => "5F　カフェテリア",
       "text" => "お手頃価格で食べられるランチスポットはここですね！",
       "actions" => [
-          [
-            "type" => "postback",
-            "label" => "予約する",
-            "data" => "action=buy&itemid=123"
-          ],
-          [
-            "type" => "postback",
-            "label" => "電話する",
-            "data" => "action=pcall&itemid=123"
-          ],
+          // [
+          //   "type" => "postback",
+          //   "label" => "予約する",
+          //   "data" => "action=buy&itemid=123"
+          // ],
+          // [
+          //   "type" => "postback",
+          //   "label" => "電話する",
+          //   "data" => "action=pcall&itemid=123"
+          // ],
           [
             "type" => "uri",
             "label" => "詳しく見る",
@@ -85,9 +85,9 @@ if ($text == 'はい') {
             ]
           ],
           [
-            "thumbnailImageUrl" => "https://" . $_SERVER['SERVER_NAME'] . "/img2-2.jpg",
-            "title" => "▲▲レストラン",
-            "text" => "それともこちら？（２つ目）",
+            "thumbnailImageUrl" => "https://" . $_SERVER['SERVER_NAME'] . "/imahan.jpg",
+            "title" => "今半",
+            "text" => "すき焼きならこちら！（２つ目）",
             "actions" => [
               [
                   "type" => "postback",
@@ -102,14 +102,14 @@ if ($text == 'はい') {
               [
                   "type" => "uri",
                   "label" => "詳しく見る（ブラウザ起動）",
-                  "uri" => "https://" . $_SERVER['SERVER_NAME'] . "/"
+                  "uri" => "https://www.imahan.com/guide/shop/ningyocho_shop.html"
               ]
             ]
           ],
           [
-            "thumbnailImageUrl" => "https://" . $_SERVER['SERVER_NAME'] . "/img2-3.jpg",
-            "title" => "■■レストラン",
-            "text" => "はたまたこちら？（３つ目）",
+            "thumbnailImageUrl" => "https://" . $_SERVER['SERVER_NAME'] . "/ryuhou.jpg",
+            "title" => "龍鳳",
+            "text" => "担々麺ならこちら！（３つ目）",
             "actions" => [
               [
                   "type" => "postback",
@@ -124,7 +124,7 @@ if ($text == 'はい') {
               [
                   "type" => "uri",
                   "label" => "詳しく見る（ブラウザ起動）",
-                  "uri" => "https://" . $_SERVER['SERVER_NAME'] . "/"
+                  "uri" => "https://tabelog.com/tokyo/A1302/A130204/13018126/"
               ]
             ]
           ]
