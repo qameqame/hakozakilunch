@@ -85,9 +85,9 @@ if ($text == 'はい') {
             ]
           ],
           [
-            "thumbnailImageUrl" => "https://" . $_SERVER['SERVER_NAME'] . "/imahan.jpg",
-            "title" => "今半",
-            "text" => "すき焼きならこちら！（２つ目）",
+            "thumbnailImageUrl" => "https://" . $_SERVER['SERVER_NAME'] . "/namugyou.jpg",
+            "title" => "亜洲食堂",
+            "text" => "そろそろナムギョウ食べに行かないとね！（２つ目）",
             "actions" => [
               [
                   "type" => "postback",
@@ -102,7 +102,7 @@ if ($text == 'はい') {
               [
                   "type" => "uri",
                   "label" => "詳しく見る（ブラウザ起動）",
-                  "uri" => "https://www.imahan.com/guide/shop/ningyocho_shop.html"
+                  "uri" => "https://tabelog.com/tokyo/A1302/A130204/13015424/"
               ]
             ]
           ],
