@@ -1,7 +1,6 @@
 {
     "name": "#LINE Messaging API test PHP",
-    "description": "heroku 上にデプロイされる LINE Messaging APIのサーバースクリプト.
-                    App Name (optional)にデプロイ先のアプリケーション名称を入力してください",
+    "description": "heroku 上にデプロイされる LINE Messaging APIのサーバースクリプト.App Name (optional)にデプロイ先のアプリケーション名称を入力してください",
     "repository": "https://github.com/hrmz/line-messagingapi-test.git",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg",
     "keywords": ["php", "line-messaging-api"],
