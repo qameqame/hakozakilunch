@@ -41,7 +41,7 @@ if ($text == 'はい') {
           [
             "type" => "uri",
             "label" => "詳しく見る",
-            "uri" => "https://" . $_SERVER['SERVER_NAME'] . "/"
+            "uri" => "http://japan.zdnet.com/article/20242528/"
           ],
           [
             "type" => "message",
@@ -61,7 +61,6 @@ if ($text == 'はい') {
       "type" => "carousel",
       "columns" => [
           [
-//            "thumbnailImageUrl" => "https://" . $_SERVER['SERVER_NAME'] . "/img2-1.jpg",
             "thumbnailImageUrl" => "https://" . $_SERVER['SERVER_NAME'] . "/den-top.jpg",
             "title" => "築地 傳 本店",
             "text" => "マグロ旨いよ。こちらにしますか？",
@@ -80,7 +79,6 @@ if ($text == 'はい') {
                   "type" => "uri",
                   "label" => "詳しく見る（ブラウザ起動）",
                   "uri" => "https://tabelog.com/tokyo/A1302/A130204/13042200/"
-//                  "uri" => "https://" . $_SERVER['SERVER_NAME'] . "/"
               ]
             ]
           ],
